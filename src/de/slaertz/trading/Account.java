@@ -30,7 +30,7 @@ public class Account {
 		Position pos = new Position(new SimpleTimestamp(new SimpleDate(2007,
 				10, 9), 9, 0, 0), false, number, 8001f);
 		acc.closePosition(pos, 8002f);
-		System.out.println("Close :" + acc.balance);
+		//System.out.println("Close :" + acc.balance);
 	}
 
 	public int buy(final float price, final int number) {

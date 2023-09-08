@@ -13,6 +13,13 @@ public class Account {
 
 	public final float spread;
 
+	/**
+	 * Create a new account 
+	 * @param balance
+	 * @param lever
+	 * @param closeOut
+	 * @param spread
+	 */
 	public Account(final float balance, final int lever, final float closeOut,
 			final float spread) {
 		this.balance = balance;
